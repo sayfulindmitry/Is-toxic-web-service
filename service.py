@@ -3,6 +3,7 @@ app = Flask(__name__)
 
 from sklearn.externals import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
+
 lr = joblib.load('log_reg_model.pkl')
 Vectorize = joblib.load('vectorize.pkl')
 
@@ -14,7 +15,6 @@ def is_toxic():
 
 
     data = request.get_json()
-    #data = str(data)
     data = Vectorize.transform(data)
 
     verdict = lr.predict(data)[0]
