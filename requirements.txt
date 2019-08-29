@@ -1,0 +1,4 @@
+Flask version: 0.10.1
+Numpy version: 1.16.2
+Pandas version: 0.24.2
+Sklearn version: 0.20.3
