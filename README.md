@@ -1,4 +1,4 @@
-# Is your conten toxic?
+# Is your content toxic?
 
 ## **Introduction**
 
