@@ -43,9 +43,7 @@ _ML_: pandas, numpy, scikit-learn. _Web_: Flask
 1. Используя curl
  
 Для этого в терминале нужно вбить следующее: <br>
-`curl --header "Content-Type: application/json" \
-  --request POST \
-  --data '{'Comment': 'comment text'}' \
+`curl --header "Content-Type: application/json" --request POST \ --data '{'Comment': 'comment text'}' \
   http://localhost:5000/is_toxic`
   
 Здесь _data_ - данные, которые мы хотим, чтобы наш сервис обработал.
