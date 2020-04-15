@@ -1,4 +1,5 @@
-# * Is the text toxic?*
+# Is the text toxic?
+
 # **Introduction**
 
 Данный сервис создан с целью определения токсичности того или иного высказывания (комментария). <br>
@@ -50,5 +51,6 @@ _ML_: pandas, numpy, scikit-learn. _Web_: Flask
 В `Headers` в `Key` добавить `Content-Type`, а в `Value` - `application/json`. Далее в `Body` нужно поставить галочку возле `raw`, 
 в поле ниже вбить текст в формате JSON. <br>
 Пример ниже:
-![Alt text](//https://yadi.sk/d/62KEBt5xRGF5EQ "Postman example")
+
+![Alt text](//https://yadi.sk/d/62KEBt5xRGF5EQ/postman_example.png "Postman example")
 
