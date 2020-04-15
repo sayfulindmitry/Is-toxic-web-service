@@ -13,7 +13,7 @@
 
 # **Libraries**
 
-Для создания данного веб-сервиса я использовал следующие Python библиотек: <br>
+Для создания данного веб-сервиса я использовал следующие Python библиотеки: <br>
 _ML_: pandas, numpy, scikit-learn. _Web_: Flask
 
 # **Step 1**
@@ -50,7 +50,7 @@ _ML_: pandas, numpy, scikit-learn. _Web_: Flask
 В этой программе нужно сделать POST запрос через адрес http://localhost:5000/is_toxic.
 В `Headers` в `Key` добавить `Content-Type`, а в `Value` - `application/json`. Далее в `Body` нужно поставить галочку возле `raw`, 
 в поле ниже вбить текст в формате JSON. <br>
-Пример ниже: [Postman][1]
+Пример того, как должны выглядеть параметры в Postman: [Postman][1]
 
 [1]: https://yadi.sk/d/62KEBt5xRGF5EQ/postman_example.png "Postman"
 
