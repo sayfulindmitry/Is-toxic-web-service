@@ -55,7 +55,10 @@ _ML_: pandas, numpy, scikit-learn. _Web_: Flask
 В этой программе нужно сделать POST запрос через адрес http://localhost:5000/is_toxic.
 В `Headers` в `Key` добавить `Content-Type`, а в `Value` - `application/json`. Далее в `Body` нужно поставить галочку возле `raw`, 
 в поле ниже вбить текст в формате Json. <br>
-Пример того, как должны выглядеть параметры в Postman: [link][1]
+Пример того, как должны выглядеть параметры в Postman: [photo_link][1]
+
+## Видео с комментариями
+Для школы от Яндекс.Облако записано видео с комментариями: [video_link][2]
 
 [1]: https://yadi.sk/d/62KEBt5xRGF5EQ/postman_example.png "Postman"
-
+[2]: https://yadi.sk/i/TPHQI-Vgl3k8sg "Video"
