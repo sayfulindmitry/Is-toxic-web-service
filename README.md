@@ -27,6 +27,7 @@ _ML_: pandas, numpy, scikit-learn. _Web_: Flask
 Клонируем себе репозиторий.
 Открываем docker, заходим в папку python_web_service_with_model: <br>
 `$ cd .../downloads/Is-toxic-web-service-master`
+
 Запускаем команду в терминале: <br>
 `$ docker-compose up --build`
 
